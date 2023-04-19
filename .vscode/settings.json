@@ -1,0 +1,13 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.options": {
+    "overrideConfigFile": "./node_modules/@purfect/syntax/.eslintrc.cjs"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+ }
