@@ -25,7 +25,7 @@ export const getProviders = () => {
   const Providers = providers.map((provider) => {
     const Provider = Components[provider as ComponentName]
 
-    if (!Provider) {
+    if (!Provider || typeof Provider !== 'function') {
       throw new Error(`Provider ${provider} not found`)
     }
 
